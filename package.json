@@ -1,0 +1,28 @@
+{
+  "name": "recommend",
+  "version": "0.0.1",
+  "description": "simple recommendation system",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigocam/recommend.git"
+  },
+  "author": "Rodrigo Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigocam/recommend/issues"
+  },
+  "homepage": "https://github.com/rodrigocam/recommend#readme",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "csv-parser": "^2.3.1",
+    "raccoon": "^0.2.8",
+    "redis": "^2.8.0"
+  },
+  "bin": {
+    "recommend": "src/index.js"
+  }
+}
